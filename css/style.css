@@ -1,11 +1,12 @@
 body {
 font-size: 16px; 
 line-height: 22px;
-color: #323232; 
+color: #ffffff; 
 font-weight: normal;
 font-family: "Roboto", sans-serif;
 background: #88a294;
 }
+
 
 h1 {
 font-size: 60px; 
@@ -30,3 +31,273 @@ color: #323232;
 font-weight: bold;
 font-family: "Roboto", sans-serif;
 }
+p {
+	color: 323232;
+}
+form {
+	font-size: 0px;
+	outline: 1px solid #666666;
+}
+a {
+	color: #ffffff
+}
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.container {
+	outline: 1px solid #666666;
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+.main-header {
+}
+.main-navigation {
+	float: left;
+	width: 870px; 
+	min-height: 63px;
+}
+
+.user-info {
+	float: right;
+	width: 267px; 
+	min-height: 95px;
+}
+
+.breadcrumbs {
+font-size: 14px; 
+line-height: 16px;
+color: #ffffff; 
+font-weight: normal;
+font-family: "Roboto", sans-serif;
+}
+.frame {
+	background: #a6b7ad;
+	border-radius: 10px;
+	padding:8px 15px 8px 15px;
+	font-size: 16px;
+	margin-right:18px;
+}
+.filters {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-right:16px;
+}
+.filters:nth-child(3) {
+  margin-right: 0;
+}
+.filters:nth-child(5) {
+  margin-right: 0;
+}
+.filter-collating {
+	width: 193px;
+	outline: 1px solid #666666;
+}
+.filter-price {
+	width: 218px;
+	outline: 1px solid #666666;
+}
+.filter-fat {
+	width: 414px;
+	outline: 1px solid #666666;
+}
+.filter-topping {
+	width: 702px;
+	outline: 1px solid #666666;
+}
+.box-use {
+	width: 140px;
+	outline: 1px solid #666666;
+	border: 2px solid #ffffff;
+	margin-top: 55px;
+	color: #ffffff;
+	
+
+}
+.promo {
+ margin-bottom: 35px;
+}
+.index-foto{
+	height: 495px;
+	text-align: center;
+}
+.promo-card {
+	margin-bottom: 40px;
+}
+.card-1 {
+	float: left;
+	width: 560px;
+	min-height: 229px;
+}
+.card-2 {
+	float: right;
+	width: 560px;
+	min-height: 229px;
+}
+.product {
+	margin-bottom: 40px;
+}
+.product-preview {
+	float: left;
+	width: 267px;
+	min-height: 340px;
+	margin-right: 26px;
+}
+.product .product-preview:last-child  {
+  margin-right: 0;
+}
+.product-mini {
+	min-width: 1146px;
+	font-size: 0px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+.product-preview-mini {
+display: inline-block;
+width: 267px;
+min-height: 325px;
+margin-right: 26px;
+margin-bottom: 40px; 
+vertical-align: top;
+font-size: 16px;
+}
+.product-preview-mini:nth-child(4) {
+  margin-right: 0;
+}
+.product-preview-mini:nth-child(8) {
+  margin-right: 0;
+}
+.product-preview-mini:nth-child(12) {
+  margin-right: 0;
+}
+.price {
+	text-align: left;
+	font-weight: medium;
+}
+
+.page {
+	float: right;
+	width: 189px;
+	min-height: 25px;
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+.features {
+	margin-bottom: 40px;
+	padding: 10px;
+	padding-left: 20px;
+}
+.features-item {
+	display: inline-block;
+	width: 540px;
+	margin-right:20px;
+  margin-bottom:10px; 
+  text-align: left;
+
+}
+.features .features-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.info {
+	margin-bottom: 40px;
+}
+.content-blog {
+	float: left;
+	width: 560px;
+	min-height: 220px;
+	border-radius: 20px;
+}
+.subscription {
+	float: right;
+	width: 560px;
+	min-height: 220px;
+	border-radius: 20px;
+}
+.contacts {
+position: relative;
+}
+.contacts-detail {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-top: 62px;
+  margin-left: 271px;
+	background-color: #fefefe;
+	width: 277px;
+	min-height: 305px;
+	padding-left: 25px;
+	border-radius: 20px;
+
+
+}
+.contacts-title, .contacts-info {
+	text-align: left;
+}
+.contacts-title {
+font-size: 14px; 
+line-height: 20px;
+color: #323232; 
+font-weight: normal;
+font-family: "Roboto", sans-serif;
+}
+.contacts-info {
+font-size: 18px; 
+line-height: 24px;
+color: #323232; 
+font-weight: bold;
+font-family: "Roboto", sans-serif;
+}
+.title-box {
+background-color: #ee5d3e;
+width: 253px;
+min-height: 47px;
+text-align: center;
+font-size: 18px; 
+line-height: 24px;
+color: #fefefe; 
+font-weight: bold;
+font-family: "Roboto", sans-serif;
+padding-top: 13px;
+padding-bottom: 13px;
+padding-left: 27px;
+padding-right: 27px;
+border-radius: 20px;
+}
+
+.main-footer {
+  margin-top: 36px;
+}
+
+.footer-social {
+  float: left;
+  width: 267px;
+  margin-right: 26px;
+
+  /* Только для оформления сетки */
+  min-height: 55px;
+}
+
+.detail {
+  float: left;
+  width: 560px;
+
+  /* Только для оформления сетки */
+  min-height: 55px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 267px;
+
+  /* Только для оформления сетки */
+  min-height: 55px;
+}
+
+
+
