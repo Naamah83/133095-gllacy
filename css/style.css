@@ -11,7 +11,10 @@ body {
 .inner-page {
   color: #ffffff;
 }
-
+img {
+	max-width: 100%;
+	height: auto;
+}
 h1 {
   font-size: 60px; 
   line-height: 60px;
@@ -126,6 +129,7 @@ h3 {
 }
 
 .main-header {
+	min-height: 102px;
   color: #ffffff;
 }
 
@@ -296,7 +300,6 @@ li .new {
   height: 63px;
   padding: 0;
   margin-right: 10px;
-  opacity: 0.15;
 }
 
 .main-navigation .logo-inner img{
@@ -398,12 +401,14 @@ li .new {
   display: none;
 }
 
-.search-form input[type="search"] {
-  min-width: 311px;
-  min-height: 26px;
+.search-form input[type="text"] {
+  min-width: 297px;
+  min-height: 24px;
   margin: 0;
+  margin-left: 15px;
+  margin-top: 18px; 
   margin-bottom: 20px;
-  padding-left: 8px;
+  padding-left: 14px;
   padding-top: 9px;
   padding-bottom: 9px;
   font-size: 16px; 
@@ -412,8 +417,6 @@ li .new {
   font-weight: 700;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
-  margin-left: 15px;
-  margin-top: 18px; 
 }
 
 .search-tip {
@@ -439,16 +442,21 @@ li .new {
   display: block;
 }
 
-input[type="search"]:hover {
-	min-width: 309px;
+input[type="text"]:hover {
+	min-width: 297px;
   min-height: 24px;
-  padding-left: 6px;
+  padding-left: 14px;
   padding-top: 8px;
   padding-bottom: 8px;
   border: 2px solid #d3d3d2;
 }
 
-input[type="search"]:focus {
+input[type="text"]:focus {
+	min-width: 297px;
+  min-height: 24px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border: 2px solid #8fbdec;
   outline: none;
 }
@@ -588,6 +596,10 @@ input[type="search"]:focus ~ .search-tip {
 }
 
 .login-form input[type="email"]:focus {
+	min-width: 223px;
+  padding-left: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 	border: 2px solid #8fbdec;
 	outline: none;
 }
@@ -605,6 +617,10 @@ input[type="email"]:focus ~ .email-tip {
 }
 
 .login-form input[type="password"]:focus {
+	min-width: 223px;
+  padding-left: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 	border: 2px solid #8fbdec;
 	outline: none;
 }
@@ -769,8 +785,8 @@ input[type="password"]:focus ~ .password-tip {
 .basket-form {
   position: absolute;
   right: 0px;
-  top: 60px;
-  min-width: 539px;
+  top: 59px;
+  min-width: 540px;
   min-height: 242px;
   background: #f8f7f4;
   font-size: 13px; 
@@ -805,7 +821,7 @@ input[type="password"]:focus ~ .password-tip {
 .content-close {
   position: absolute;
   top: 10px;
-  left: 20px;
+  left: 15px;
   width: 12px;
   height: 12px;
   font-size: 0;
@@ -835,7 +851,7 @@ input[type="password"]:focus ~ .password-tip {
 .content-close {
   position: absolute;
   top: 10px;
-  left: 20px;
+  left: 15px;
   width: 12px;
   height: 12px;
   font-size: 0;
@@ -874,8 +890,8 @@ input[type="password"]:focus ~ .password-tip {
   display: inline-block;
   margin: 0;
   vertical-align: top;
-  margin-top: 30px;
-  margin-right: 27px; 
+  margin-top: 28px;
+  margin-right: 26px; 
 }
 
 .string-1 p:last-child {
@@ -886,7 +902,7 @@ input[type="password"]:focus ~ .password-tip {
   display: inline-block;
   vertical-align: top;
   margin-top: 25px; 
-  margin-right: 27px;
+  margin-right: 26px;
 }
 
 .string-2 p:last-child {
@@ -905,13 +921,13 @@ input[type="password"]:focus ~ .password-tip {
   width: 510px;
   background: #cacac7;
   right: 0px;
-  bottom: 32px;
+  bottom: 13px;
 }
 
 .total {
   text-align: right;
   margin-right: 12px;
-  margin-top: 20px;
+  margin-top: 18px;
   font-size: 15px;
   line-height: 18px;
   font-weight: 700;
@@ -921,24 +937,23 @@ input[type="password"]:focus ~ .password-tip {
   display: inline-block;
   position: absolute;
   text-decoration: none;
-  right: 10px;
+  min-width: 170px;
+  min-height: 20px;
+  right: 13px;
   bottom: 18px;
   font-size: 18px; 
   line-height: 24px;
   color: #ffffff; 
   font-weight: 700;
   background-color: #e84d37;
-  max-width: 170px;
   text-align: center;
-  border-radius: 24px;
-  padding-top: 9px;
+  border-radius: 22px;
+  padding-top: 11px;
   padding-bottom: 13px;
-  padding-left: 15px;
-  padding-right: 15px;
   background: -moz-linear-gradient(top, #f26843 0%, #e74a35 100%);
   background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
   background: linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
-  box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
 }
 
 .buy:hover {
@@ -958,6 +973,7 @@ input[type="password"]:focus ~ .password-tip {
 
 .info {
   float: right;
+  min-width: 170px;
   text-align: right;
   margin: 0;
 }
@@ -1440,7 +1456,8 @@ select:hover {
 } 
 
 .product {
-  margin-bottom: 40px;
+	min-height: 330px;
+  margin-bottom: 32px;
 }
 
 .product-preview {
@@ -1678,7 +1695,7 @@ select:hover {
 }
 
 .metka-1 {
-	padding-right: 5px;
+	padding-right: 10px;
 }
 
 .metka-2 {
@@ -1870,6 +1887,8 @@ select:hover {
 }
 
 .mail:focus {
+	min-width: 350px;
+	min-height: 38px;
   border: 2px solid #8fbdec;
   outline: none;
 }
@@ -2274,6 +2293,10 @@ select:hover {
 }
 
 .commint-form input[type="text"]:focus {
+	min-width: 248px;
+	padding-left: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border: 2px solid #8fbdec;
   outline: none;
 }
@@ -2292,15 +2315,20 @@ textarea {
   padding-top: 7px;
   border-radius: 5px;
   margin-left: 24px; 
+  margin-bottom: 20px;
 }
 
 textarea:hover {
 	min-width: 408px;
   min-height: 143px;
+  padding-top: 7px;
   border: 2px solid #d3d3d2;
 }
 
 textarea:focus {
+	min-width: 408px;
+  min-height: 143px;
+  padding-top: 7px;
   border: 2px solid #8fbdec;
   outline: none;
 }
@@ -2314,7 +2342,6 @@ textarea:focus {
   background-color: #e84d37;
   border-radius: 20px;
   border: none;
-  margin-top: 20px;
   font-size: 18px; 
   line-height: 24px;
   color: #ffffff;
